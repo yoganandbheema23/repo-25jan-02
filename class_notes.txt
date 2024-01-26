@@ -1,0 +1,86 @@
+def squarenumber(a):
+    return a*a
+
+
+b=squarenumber(12)
+print(b)
+
+
+
+---------------------------------------------
+
+try:
+	a=2
+	b=0
+	print(a/b)
+except ZeroDivisionError:
+	print('There is an error')
+finally:
+	print('Continue with the folowing code')
+
+
+
+---------------------------------------------
+
+#1.Syntax errors
+a=2
+if a>10
+    print("a is greater than 10")
+else:
+    print("a is smaller than 10")
+
+#2.zero division error
+b=19
+print(16/2)
+
+#3 type error
+a=2
+b='ganesh'
+
+#print(a+b)
+
+
+x=20.08
+y=30
+
+print(x+y)
+
+
+---------------------------------------------
+
+
+#first create one file in the package like myfile.txt
+#r+ ---> write and read purpose
+
+file=open('myfile.txt','r+')
+writing_file=file.write('Welcome to ganesh institute ')
+print(writing_file)
+file.close()
+
+
+#Reading data from the file
+file=open('myfile.txt','r+')
+reading_file=file.read()
+print(reading_file)
+file.close()
+
+#appending data to the existing file
+file=open('myfile.txt','a')
+appending_data=file.write('Python language')
+file.close()
+
+#Reading data from the file
+file=open('myfile.txt','r+')
+reading_file=file.read()
+print(reading_file)
+file.close()
+
+
+
+karun_mehtas@yahoo.com
+
+
+betsydgeorge@gmail.com
+
+
+britishrani@yahoo.com
