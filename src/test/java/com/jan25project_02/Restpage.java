@@ -8,5 +8,10 @@ public class Restpage {
 		System.out.println("hi..");
 
 	}
+	
+	public void methodone()
+	{
+		System.out.println("methodone is calling...");
+	}
 
 }
