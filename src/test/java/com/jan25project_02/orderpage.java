@@ -9,6 +9,7 @@ public class orderpage {
 		int k1=20;
 		int n=k+k1;
 		String ss="yoganand";
+		int sal=25;
 		
 		
 
