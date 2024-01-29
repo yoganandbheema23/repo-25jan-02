@@ -5,11 +5,12 @@ public class orderpage {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int n=10;
-		int n1=20;
-		int m=n1+n;
-
-
+		int k=10;
+		int k1=20;
+		int n=k+k1;
+		String ss="yoganand";
+		
+		
 
 
 
