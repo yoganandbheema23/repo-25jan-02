@@ -8,7 +8,8 @@ public class orderpage {
 		int n=10;
 		int n1=20;
 		int m=n1+n;
-		String name ="yoganand";
+
+
 
 
 
